@@ -1,0 +1,123 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body {
+    background-color: black;
+    padding: 0px;
+}
+.head {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo {
+   justify-content: center; 
+   text-align: center;
+   position: relative;
+}
+
+.logo-img {
+    margin: 5px auto;
+    height: 80px;
+    width: 80px;
+    background-image: url(../images/resized/bug-solid-dark.png);
+    background-size: contain;
+    background-position: left;
+}
+
+.link {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    font-size: large;
+    font-weight: 600; 
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+.home {
+    display: flex;
+    position: relative;
+    height: 600px;
+    width: auto;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+   
+}
+
+.into {
+    position: absolute;
+    display: flex;
+    left: 0.5em;
+    font-weight: bold;
+    top: 150px;
+    height: 40%;
+    color: white;
+    font-size: 3em;
+}
+
+.offers {
+    display: flex;
+    height: 600px;
+    width: auto;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+
+.offer {
+    position: relative;
+    height: 60%;
+    width: 28%;
+    border: grey solid 4px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0px 20px;
+}
+
+.off-name {
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: center;
+
+}
+
+.description {
+    display: flex;
+    color: white;
+
+}
+
+.offer-img {
+    height: 120px;
+    width: auto;
+
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#mbl-dev {
+    background-image: url(../images/mobile-dev.png);
+}
+
+#web-dev {
+    background-image: url(../images/web-dev.png);
+}
+
+#ui-dev {
+    background-image: url(../images/ui-ux-des.png);
+}
+
