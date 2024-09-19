@@ -79,6 +79,7 @@
     position: relative;
     height: 60%;
     width: 28%;
+    min-width: 100px;
     border: grey solid 4px;
     border-radius: 5px;
     text-align: center;
